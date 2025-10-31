@@ -1,0 +1,24 @@
+# 📦 Dependency Management
+# If you use NPM/Yarn to install any JS modules (even if you just use the built files)
+/node_modules
+
+# 🛠️ Build and Distribution Outputs
+# Folders created when bundling/compiling your JS modules (e.g., using Webpack, Parcel, Rollup)
+/dist
+/build
+/out
+
+# 🔑 Credentials and Environment Variables (Critical for Security!)
+.env
+.env.*
+
+# 💻 IDE and OS Files
+.DS_Store          # Mac OS X file
+Thumbs.db          # Windows file
+.vscode/           # Visual Studio Code specific settings
+.idea/             # JetBrains IDEs (WebStorm, IntelliJ)
+
+# 🗑️ Logs and Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
